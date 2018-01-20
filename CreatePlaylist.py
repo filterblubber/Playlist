@@ -7,12 +7,12 @@ import os
 
 
 #configurationsdatei
-absLink = "/media/thedoctor/mydata/Music/01_Anime_Cartoon/"
+absLink = "[input link]"
 #suche nur ein bestimmtes Verzeichnis
-location = "/media/thedoctor/mydata/Music/01_Anime_Cartoon/"
+location = "[input link]"
 #suche alle Verzeichnisse ab
-#filenames = glob.glob("/media/thedoctor/mydata/Music/**/*.m3u",recursive=True)
-filenames = glob.glob("/media/thedoctor/mydata/Music/myPlaylist.m3u")
+#filenames = glob.glob("[input link]/**/*.m3u",recursive=True)
+filenames = glob.glob("[input link]myPlaylist.m3u")
 print(filenames)
 #declare Variablen
 lines = []
