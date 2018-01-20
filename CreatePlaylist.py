@@ -3,7 +3,6 @@
 # CreatePlaylist.py
 import fileinput
 import glob
-import os
 
 
 #configurationsdatei
@@ -54,6 +53,3 @@ print(tmpList[3])
 with open(absLink+"file.txt", "w") as output:
     for line in tmpList:
         output.write(line+"\n")
-
-#os.listdir("/media/thedoctor/mydata/Music")
-#print(os.listdir("/media/thedoctor/mydata/Music/*.m3u"))
